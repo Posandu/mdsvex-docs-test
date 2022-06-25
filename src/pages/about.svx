@@ -1,0 +1,14 @@
+---
+title: About Page
+---
+
+<script>
+	let name = "John";
+</script>
+
+## About This is about page. Svelte works here fine.
+
+<h1>
+	Hi, {name}
+</h1>
+<input type="text" bind:value={name} />
